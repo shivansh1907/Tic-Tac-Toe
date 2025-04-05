@@ -68,7 +68,7 @@ const checkwinner=()=>{
    boxes.forEach((box)=>{
     resetbtn.addEventListener("click",()=>{
         box.innerText=""
-        box.computedStyleMap.background-color:white
+        box.style.backgroundColor="white"
     })
    })
     
